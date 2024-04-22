@@ -1380,11 +1380,15 @@ fieldset[disabled] .btn-theme {
 }
 
 
-/*Things to hide on mobile*/
+/*Things to hide on computer or mobile*/
 
+.hidecomputer{
+	height:0px;
+	visibility: hidden;
+}
 
 @media (max-width: 768px) {
-	.foret{
+	.hidemobile{
 		height:0px;
 		visibility:hidden;
 	}
@@ -1392,7 +1396,6 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width: 768px) {
 	.matronche{
-		border-radius:20%;
+		width:50px;
 	}
 }
-
