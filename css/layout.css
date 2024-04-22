@@ -1392,7 +1392,7 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width: 768px) {
 	.matronche{
-		border-radius:50%;
+		border-radius:20%;
 	}
 }
 
