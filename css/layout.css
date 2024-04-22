@@ -391,7 +391,7 @@ fieldset[disabled] .btn-theme {
     margin-right: auto;
   }
   .promo-block-img {
-    width:50%;
+	  width:50%;
   }
 }
 
@@ -676,6 +676,12 @@ fieldset[disabled] .btn-theme {
     position: absolute;
     top: 19px;
   }
+}
+
+@media (max-width: 768px) {
+	.foret{
+		visibility:hidden;
+	}
 }
 
 /* Media Queries below 767px */
