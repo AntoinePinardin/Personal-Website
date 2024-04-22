@@ -1380,15 +1380,11 @@ fieldset[disabled] .btn-theme {
 }
 
 
-/*Things to hide on computer or mobile*/
+/*Things to hide on mobile*/
 
-.hidecomputer{
-	height:0px;
-	visibility: hidden;
-}
 
 @media (max-width: 768px) {
-	.hidemobile{
+	.foret{
 		height:0px;
 		visibility:hidden;
 	}
@@ -1396,6 +1392,22 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width: 768px) {
 	.matronche{
-		width:50px;
+		border-radius:50%;
 	}
 }
+
+.petitetete{
+	position:absolute;
+	visibility:hidden;
+}
+
+@media (max-width: 768px) {.petitetete{
+	position:relative;
+	visibility:visible;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius:50%;
+}}
+
