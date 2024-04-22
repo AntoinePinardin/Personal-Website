@@ -378,6 +378,12 @@ fieldset[disabled] .btn-theme {
   bottom: 0;
 }
 
+.promo-block-img{
+	height:135%;
+}
+
+
+
 @media (max-width: 768px) {
   .promo-block .promo-block-img {
     position: relative;
