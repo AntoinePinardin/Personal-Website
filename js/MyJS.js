@@ -4,6 +4,8 @@ window.mobileCheck = function() {
   return check;
 };
 
-if window.mobileCheck()===true{
+t=window.mobileCheck();
+
+if (t===true){
 	document.getElementById("sallecont").setAttribute("data-image-src","img/salle2.jpg");
 }
