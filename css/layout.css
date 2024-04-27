@@ -1438,3 +1438,7 @@ fieldset[disabled] .btn-theme {
 @media (max-width: 768px) {.lesspadmob{
 	padding-top:20px;
 }}
+
+@media (max-width: 768px) {.test{
+	line-height:10px;
+}}
