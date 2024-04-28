@@ -1439,10 +1439,10 @@ fieldset[disabled] .btn-theme {
 	padding-top:20px;
 }}
 
-.last-icons{
+@media (min-width: 769px){.last-icons{
 	position:absolute;
 	visibility:hidden;
-}
+}}
 
 @media (max-width: 768px) {.last-icons{
 	position:relative;
