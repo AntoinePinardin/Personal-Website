@@ -1439,18 +1439,20 @@ fieldset[disabled] .btn-theme {
 	padding-top:20px;
 }}
 
-@media (min-width: 769px){.last-icons{
+.last-icons{
+	margin-right:10px;
+}
+
+@media (min-width: 769px) {.lastcont-mobile{
 	position:absolute;
+	height:0px;
+	overflow:hidden;
 	visibility:hidden;
 }}
 
-@media (max-width: 768px) {.last-icons{
-	position:relative;
-	margin-right:10px;
-	visibility:visible;
-}}
-
-@media (max-width: 768px) {.last-noticons{
+@media (max-width: 768px) {.lastcont-computer{
 	position:absolute;
+	height:0px;
+	overflow:hidden;
 	visibility:hidden;
 }}
