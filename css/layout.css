@@ -1447,6 +1447,7 @@ fieldset[disabled] .btn-theme {
 @media (max-width: 768px) {.last-icons{
 	position:relative;
 	margin-right:10px;
+	visibility:visible;
 }}
 
 @media (max-width: 768px) {.last-noticons{
