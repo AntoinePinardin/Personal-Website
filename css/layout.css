@@ -1456,3 +1456,128 @@ fieldset[disabled] .btn-theme {
 	overflow:hidden;
 	visibility:hidden;
 }}
+
+.logoconfcont{
+	width:20%;
+}
+
+.textconf{
+	padding-top:20px;
+	width:60%;
+}
+
+/*.nopadtop{
+	padding-top:5px;
+}
+
+.nopadbottom{
+	padding-bottom:5px;
+}*/
+
+
+.conf .conf-info1 {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition-duration: 500ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.conf:hover .conf-info1 {
+    -webkit-transform: translate3d(0, -200%, 0);
+    -moz-transform: translate3d(0, -200%, 0);
+    transform: translate3d(0, -200%, 0);
+    transition-duration: 500ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.conf .conf-info2 {
+	margin-top:10px;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.conf:hover .conf-info2 {
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.conf .conf-info3 {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.conf:hover .conf-info3 {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.icms{
+	width:100pt;
+}
+
+.confcont{
+	width:100%;
+	overflow:hidden;
+}
+
+.conf-infos{
+	padding-top:10px;
+	overflow:hidden;
+	text-align:center;
+	background:#fafafa;
+	border: 1px solid #edf0f2;
+	height:160pt;
+}
+
+.conf-descrcont{
+	position:absolute;
+	width:90%;
+	top:0px;
+	height:100%;
+	opacity:0;
+	text-align:justify;
+	padding:30px;
+}
+
+.conf:hover .conf-descrcont {
+	opacity:1;
+	transition-duration:3000ms;
+}
+
+
+
+.conf-visible{
+	height:300pt;
+}
+
+.conf-info3{
+	color: #515769;
+}
+
+.conf-descr{
+	color: #515769;
+	font-weight: 500;
+}
+
+.lien{
+	text-decoration:underline;
+}
