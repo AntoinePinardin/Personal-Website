@@ -1405,10 +1405,10 @@ fieldset[disabled] .btn-theme {
 	position:relative;
 	visibility:visible;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  border-radius:50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 40%;
+	  border-radius:50%;
 }}
 
 
@@ -1484,14 +1484,14 @@ fieldset[disabled] .btn-theme {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-.conf:hover .conf-info1 {
+@media(min-width:1000px){.conf:hover .conf-info1 {
     -webkit-transform: translate3d(0, -200%, 0);
     -moz-transform: translate3d(0, -200%, 0);
     transform: translate3d(0, -200%, 0);
     transition-duration: 500ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
+}}
 
 .conf .conf-info2 {
 	margin-top:10px;
@@ -1503,14 +1503,14 @@ fieldset[disabled] .btn-theme {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-.conf:hover .conf-info2 {
+@media(min-width:1000px){.conf:hover .conf-info2 {
     -webkit-transform: translate3d(100%, 0, 0);
     -moz-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     transition-duration: 1000ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
+}}
 
 .conf .conf-info3 {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1521,14 +1521,14 @@ fieldset[disabled] .btn-theme {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-.conf:hover .conf-info3 {
+@media(min-width:1000px){.conf:hover .conf-info3 {
     -webkit-transform: translate3d(-100%, 0, 0);
     -moz-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     transition-duration: 1000ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
+}}
 
 .icms{
 	width:100pt;
@@ -1559,10 +1559,10 @@ fieldset[disabled] .btn-theme {
 	padding:30px;
 }
 
-.conf:hover .conf-descrcont {
+@media(min-width:1000px){.conf:hover .conf-descrcont {
 	opacity:1;
 	transition-duration:3000ms;
-}
+}}
 
 .conf-info3{
 	color: #515769;
@@ -1579,6 +1579,6 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width: 767px){
 	.conf-infos{
-		width:120%;
+		width:125%;
 	}
 }
