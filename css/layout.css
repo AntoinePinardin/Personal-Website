@@ -1540,12 +1540,12 @@ fieldset[disabled] .btn-theme {
 }
 
 .conf-infos{
-	padding-top:10px;
+	padding-top:20px;
 	overflow:hidden;
 	text-align:center;
 	background:#fafafa;
 	border: 1px solid #edf0f2;
-	height:160pt;
+	padding-bottom:20px;
 }
 
 .conf-descrcont{
@@ -1561,12 +1561,6 @@ fieldset[disabled] .btn-theme {
 .conf:hover .conf-descrcont {
 	opacity:1;
 	transition-duration:3000ms;
-}
-
-
-
-.conf-visible{
-	height:300pt;
 }
 
 .conf-info3{
