@@ -1,5 +1,6 @@
 var Layout = function () {
     
+    /* Unused: old user-agent detection. Responsive layout is handled by CSS.
     // detect mobile device
     var isMobileDevice = function() {
         return  ((
@@ -10,6 +11,8 @@ var Layout = function () {
             navigator.userAgent.match(/IEMobile/i)
         ) ? true : false);
     }
+
+    */
 
     // handle on page scroll
     var handleHeaderOnScroll = function() {
@@ -54,6 +57,7 @@ var Layout = function () {
         });
     }
 
+    /* Unused: no active Bootstrap carousel on this page.
     // handle carousel
     var handleCarousel = function() {
         var $item = $('.carousel .item'); 
@@ -77,6 +81,8 @@ var Layout = function () {
             $item.height($wHeight);
         });
     }
+
+    */
 
     // handle group element heights
     var handleHeight = function() {
@@ -121,7 +127,7 @@ var Layout = function () {
             // initial setup for fixed header
             handleHeaderOnScroll();
             handleOnePageHeader(); // initial header
-            handleCarousel(); // initial setup for carousel
+            // handleCarousel(); // Disabled: no active carousel
             handleHeight(); // initial setup for group element height
             
             // handle minimized header on page scroll
